@@ -99,6 +99,7 @@ public class BMSubtitles {
             var endString: NSString?
             scanner.scanUpToCharacters(from: .newlines, into: &endString)
             
+            
             var textString: NSString?
             scanner.scanUpTo("\r\n\r\n", into: &textString)
             
